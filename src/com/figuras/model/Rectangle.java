@@ -3,6 +3,7 @@ package com.figuras.model;
 public class Rectangle {
     private int base;
     private int height;
+
     public Rectangle(int base, int height) {
         this.height = height;
         this.base = base;
@@ -10,10 +11,10 @@ public class Rectangle {
     }
 
     public double getArea(){
-        return 0;
+        return base*height;
     }
 
     public void draw(){
-        System.out.println("Circulo");
+        System.out.println("Rectangulo");
     }
 }

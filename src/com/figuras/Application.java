@@ -12,10 +12,16 @@ public class Application {
         Circle circle1 = new Circle(5), circle2 = new Circle(7);
         Rectangle rectangle = new Rectangle(10, 20);
         Square squares[] = new Square[5];
+        squares[0]=new Square(3);
+        squares[1]=new Square(9);
+        squares[2]=new Square(12);
+        squares[3]=new Square(7);
+        squares[4]=new Square(29);
         Triangle triangle = new Triangle(10, 20);
 
 
         printFigure(circle1);
+        printFigure(circle2);
         printFigure(rectangle);
         for (Square square : squares) {
             printFigure(square);
